@@ -23,7 +23,7 @@ class App extends React.Component<any, any> {
         }}
         report={<MonletReport
           time_report={{
-            title: ['다희님의 주로', '밤 11시 30분에 운동을 마치셨군요'],
+            title: ['다희님은 주로', '밤 11시 30분에 운동을 마치셨군요'],
             extra: '이번 달 운동을 마친시간',
             content: 'hello'
           }}
