@@ -1,0 +1,30 @@
+.food_detail {
+  font-family: AppleSDGothicNeo;
+  text-align: center;
+  font-size: 14px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.31px;
+  color: #1e1e1e;
+  float: left;
+  width: 33%;
+}
+
+.food_detail img {
+  width: 98px;
+  height: 98px;
+  margin-top: 26px;
+  margin-bottom: 10px;
+  border: solid 1px #979797;
+  border-radius: 50%;
+  background-color: #d8d8d8;
+}
+
+.food_detail b {
+  font-weight: bold;
+}
+
+.food_detail p {
+  font-weight: 500;
+}

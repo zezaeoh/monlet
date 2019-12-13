@@ -1,0 +1,53 @@
+.bar {
+  display: flex;
+  justify-content: center;
+  margin-top: 23px;
+  margin-right: 20px;
+
+  height: 20px;
+  border-radius: 12.5px;
+  background-color: #d8d8d8;
+
+  overflow: hidden;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  margin-top: 6px;
+  margin-right: 20px;
+}
+
+.elem {
+  float: left;
+  text-align: center;
+}
+
+.color_0 {
+  background-color: #f8ccbf;
+}
+
+.color_1 {
+  background-color: #ff8d6d;
+}
+
+.color_2 {
+  background-color: #ff4534;
+}
+
+.inner {
+  font-family: AppleSDGothicNeo;
+  font-size: 10px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.22px;
+  color: white;
+
+  line-height: 20px;
+}
+
+.bar div.elem div.prg {
+
+}

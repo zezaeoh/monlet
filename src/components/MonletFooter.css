@@ -1,0 +1,84 @@
+.footer {
+  position: relative;
+}
+
+.footer h1 {
+  max-width: 235px;
+  margin: 0;
+  padding-top: 40px;
+  padding-bottom: 15px;
+  display: inline-block;
+
+  font-family: AppleSDGothicNeo;
+  font-size: 24px;;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.53px;
+  color: #1e1e1e;
+}
+
+.footer img {
+  width: 70px;
+  height: 70px;
+
+  position: absolute;
+  right: 23px;
+  top: 42px;
+
+  box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.2);
+  background-color: #282669;
+  border-radius: 50%;
+  display: inline;
+}
+
+.footer div.lwt {
+  font-weight: 300;
+}
+
+.footer div.button {
+  max-width: 335px;
+  border-radius: 30px;
+  background-color: #ff6f61;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 35px;
+
+  cursor:pointer;
+
+  font-family: AppleSDGothicNeo;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  text-align: center;
+  color: white;
+}
+
+.footer div.button:active {
+  background-color: #bf584a;
+}
+
+.footer h5 {
+  margin: 5px 0 0;
+
+  font-family: AppleSDGothicNeo;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.31px;
+  color: #1e1e1e;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+}
