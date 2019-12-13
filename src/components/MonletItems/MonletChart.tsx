@@ -15,15 +15,22 @@ class MonletChart extends React.Component<any, any>{
                 labels: ["1", "7", "14", "21", "28"],
                 datasets: [
                     {
-                      label: "time",
+                      label: "시간",
                       backgroundColor: "#fff2f0",
                       borderColor: "#ff6f61",
-                      data: [20, 22, 21, 19, 17, 20],
+                      data: this.props.option ? [ 20, 22, 16, 21, 17 ]: [ 5, 1, 3, 7, 4 ],
                     }
                 ]
             },
             options: {
-                //Customize chart options
+              scales: {
+                yAxes: [{
+                  ticks: {
+                    beginAtZero: true,
+                    stepSize: this.props.option ? 6 : 2
+                  }
+                }]
+              }
             }
         });
     }
